@@ -1,0 +1,22 @@
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color .1s ease;
+
+    .nameUser {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        height: 20px;
+    }
+
+    &:hover {
+        background-color: #A5A5A5;
+    }
+}

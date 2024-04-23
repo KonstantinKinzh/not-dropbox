@@ -1,0 +1,39 @@
+.search {
+    display: flex;
+    width: 420px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    &-wrapper {
+        display: flex;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+
+    &__icon {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+    }
+
+    &__input {
+        width: 370px;
+        height: 22px;
+
+        font-weight: 300;
+        font-size: 16px;
+        color: #A5A5A5;
+        outline: none;
+        border: none;
+    }
+
+    &__input::placeholder {
+        color: #A5A5A5;
+    }
+
+    .searchInput::placeholder {
+        color: #A5A5A5;
+    }
+}

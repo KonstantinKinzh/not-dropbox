@@ -1,0 +1,20 @@
+.get-inform {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+
+    .get-inform__frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        transition: background-color .2s ease;
+    }
+
+    .get-inform__frame:hover {
+        background-color: #A5A5A5;
+    }
+}

@@ -1,0 +1,49 @@
+.left-panel {
+    background-color: #333333;
+
+    &__logo-link {
+        display: flex;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+.left-panel__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 15px;
+
+    .left-panel__link {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        width: 100%;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .left-panel__icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .left-panel__text {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+        transition: color .2s ease;
+    }
+
+    .left-panel__text:hover {
+        color: #b5b3b3;
+    }
+}

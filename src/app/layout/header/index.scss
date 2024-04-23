@@ -1,0 +1,16 @@
+// Компонент Header
+.header {
+    background-color: #6600FF;
+
+    .header-wrapper {
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}

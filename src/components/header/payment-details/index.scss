@@ -1,0 +1,17 @@
+.payment-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-details__link{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color .1s ease;
+
+    &:hover {
+        color: #A5A5A5;
+    }
+}
